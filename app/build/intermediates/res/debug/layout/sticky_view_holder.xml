@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2015 longkai
+  ~
+  ~ The software shall be used for good, not evil.
+  -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <TextView
+      android:background="#ffaa66cc"
+      android:text="This is yet another view"
+      android:textColor="@android:color/white"
+      android:textSize="26sp"
+      android:gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="300dp" />
+
+  <include
+      android:id="@+id/place_holder"
+      android:visibility="invisible"
+      layout="@layout/sticky_header" />
+</LinearLayout><!-- From: file:/Users/longkai/Downloads/亿美软通SDK4.1.0(JAVA)版_支持状态报告/案例程序/recycler-sticky-header/app/src/main/res/layout/sticky_view_holder.xml -->

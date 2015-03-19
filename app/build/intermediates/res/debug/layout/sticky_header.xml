@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2015 longkai
+  ~
+  ~ The software shall be used for good, not evil.
+  -->
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:text="Sticky Header"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="32sp"
+    android:textColor="@android:color/white"
+    android:background="#ff00ddff"
+    android:layout_width="match_parent"
+    android:layout_height="60dp" /><!-- From: file:/Users/longkai/Downloads/亿美软通SDK4.1.0(JAVA)版_支持状态报告/案例程序/recycler-sticky-header/app/src/main/res/layout/sticky_header.xml -->
